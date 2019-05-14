@@ -1,0 +1,69 @@
+@media screen{
+    header{
+        width:100%;
+        height: 200px;
+        margin:auto;
+        text-align: center;
+        background-color: blue;
+        }
+    Sidebar{
+        width:20%;
+        float:left;
+        height:400px;
+        margin:auto;
+        text-align: center;
+        background-color: yellow;
+    }
+    body{
+        width:100%;
+        height:400px;
+        margin:auto;
+        text-align: center;
+        float: left;
+        background-color: rgb(184, 48, 143);
+    }
+    footer{
+        width:100%;
+        height: 200px;
+        margin:auto;
+        text-align: center;
+        float: left;
+        background-color: green;
+        }
+    }
+
+
+@media screen and (max-width:480px){
+    header{
+        width:100%;
+        height: 200px;
+        margin:auto;
+        text-align: center;
+        background-color: blue;
+        }
+    Sidebar{
+        width:100%;
+        float:left;
+        height:400px;
+        margin:auto;
+        text-align: center;
+        background-color: yellow;
+    }
+    body{
+        width:100%;
+        height:400px;
+        margin:auto;
+        text-align: center;
+        float: left;
+        background-color: rgb(184, 48, 143);
+    }
+    footer{
+        width:100%;
+        height: 200px;
+        margin:auto;
+        text-align: center;
+        float: left;
+        background-color: green;
+        }
+    }
+}
